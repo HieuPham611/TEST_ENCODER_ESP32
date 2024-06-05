@@ -61,7 +61,7 @@ void setup() {
   Serial.begin(115200);
   setup_pwm();
   // Gắn các chân GPIO cho encoder
-  // encoder.attachSingleEdge(32, 33); // Thay 18 và 19 bằng các chân GPIO bạn sử dụng
+  // encoder.attachSingleEdge(32, 33); 
   encoder_right.attachSingleEdge(ENC_1A, ENC_1B);
   encoder_right.clearCount();
 
